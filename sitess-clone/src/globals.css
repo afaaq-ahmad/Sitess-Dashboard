@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+::-webkit-scrollbar-corner {
+  background: rgba(0, 0, 0, 0);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Inter", sans-serif;
+}
+
+.video-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.video-background video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+}
+
+.app-container {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  height: calc(100dvh - 60px);
+}
+
+.sidebar {
+  z-index: 2;
+  width: 188px;
+  color: #fff;
+  padding: 20px;
+  border-right: 4px solid #27272a;
+  border-bottom: 4px solid #27272a;
+  border-bottom-right-radius: 10px;
+}
+
+.sidebarTitle {
+  margin: 0px;
+  margin-top: 6px;
+  margin-bottom: 8px;
+  padding: 0px 10px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.content-container {
+  width: calc(100dvw - 340px);
+  flex-grow: 1;
+  padding: 32px;
+  height: calc(100dvh - 140px);
+}
+
+.sidebarOptionContainer {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebarOption {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  padding: 8px 10px;
+  width: 100%;
+  margin: 5px 0px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.sidebarOption:hover {
+  background-color: #27272a;
+  border-radius: 6px;
+}
+
+.sidebarOption a {
+  text-decoration: none;
+  padding-left: 8px;
+  color: #fff;
+  width: 100%;
+}
+
+.activeOption {
+  background-color: #27272a;
+  border-radius: 6px;
+}
+
+.hitsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hitsCount {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 3px 13px;
+  border-radius: 10px;
+  background-color: #10b981;
+}
+
+@media screen and (max-width: 1080px) {
+  .sidebarOuterContainer {
+    display: none;
+  }
+}

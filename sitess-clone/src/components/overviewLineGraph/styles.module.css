@@ -1,0 +1,57 @@
+.lineGraphContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 24px;
+  width: 54.5%;
+  border: 1px solid #27272a;
+  border-radius: 10px;
+}
+
+.lineGraphTitle {
+  font-size: 16px;
+  font-weight: 600;
+  width: 100%;
+}
+
+.lineGraph {
+  height: 360px;
+  width: 100%;
+  color: #fafafa;
+}
+
+.lineGraphInfoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.lineGraphInfoItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.tooptipContainer {
+  background-color: #18181b;
+  border: 1px solid #a1a1a1;
+  border-radius: 10px;
+  padding: 10px 15px;
+}
+
+.tooltipItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin: 10px auto;
+}
+
+@media screen and (max-width: 968px) {
+  .lineGraphContainer {
+    width: 100%;
+  }
+}

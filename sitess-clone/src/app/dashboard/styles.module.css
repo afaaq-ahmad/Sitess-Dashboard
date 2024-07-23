@@ -1,0 +1,45 @@
+.dashboardContainer {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  justify-content: space-between;
+}
+
+.dashboardTitle {
+  font-size: 30px;
+  margin: 0px;
+}
+
+.barGraphMainContainer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 1rem;
+  gap: 10px;
+}
+
+.lineGraphMainContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+  gap: 10px;
+}
+
+.liveHitsMainContainer {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 968px) {
+  .barGraphMainContainer {
+    flex-wrap: wrap;
+  }
+  .dashboardTitle {
+    font-size: 24px;
+  }
+  .lineGraphMainContainer {
+    flex-wrap: wrap;
+  }
+}

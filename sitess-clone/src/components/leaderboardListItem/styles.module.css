@@ -1,0 +1,16 @@
+.leaderboardItemContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profileDetailContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.iconStyle {
+  margin-right: 15px;
+  border-radius: 50%;
+}

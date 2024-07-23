@@ -1,0 +1,57 @@
+.tableContainer {
+  overflow-x: scroll;
+}
+
+.liveHitsTable {
+  width: 100%;
+  overflow-x: scroll;
+}
+
+.headerCell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #a1a1aa;
+  padding: 20px;
+}
+
+.tableBodyContainer {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.tableProfileRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-weight: 300;
+  text-align: center;
+  gap: 10px;
+}
+
+.evenEntryStyle {
+  background-color: #ef4444;
+  border-radius: 8px;
+}
+
+.tableBodyCell {
+  height: auto;
+  width: fit-content;
+}
+
+.tableCell {
+  text-align: center;
+  vertical-align: middle;
+  height: 50px;
+  padding: 0;
+}
+
+.cellContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  margin: auto;
+  padding: 5px 10px;
+}

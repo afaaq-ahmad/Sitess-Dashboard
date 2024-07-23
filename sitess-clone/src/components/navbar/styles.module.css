@@ -1,0 +1,112 @@
+.navbarContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #000;
+  border-bottom: 4px solid #27272a;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 56px;
+}
+
+.navbarLogo {
+  padding-left: 12px;
+}
+
+.iconsContainer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+}
+
+.profileInfoContainer {
+  position: absolute;
+  top: 35px;
+  right: 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  background-color: #000;
+  border: 1px solid #a1a1aa;
+  border-radius: 8px;
+  padding: 10px;
+
+  color: #fafafa;
+  z-index: 10;
+}
+
+.profileInfoItem {
+  font-size: 12px;
+  color: #a1a1aa;
+  padding: 5px 30px 5px 10px;
+}
+
+.roundImageContainer {
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.navbarMenuOptionContainer {
+  color: #fff;
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.navbarMenuOption {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  padding: 8px 10px;
+  width: 100%;
+  margin: 5px 0px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.navbarMenuOption:hover {
+  background-color: #27272a;
+  border-radius: 6px;
+}
+
+.navbarMenuOption a {
+  text-decoration: none;
+  padding-left: 8px;
+  color: #fff;
+  width: 100%;
+}
+
+.activeOption {
+  background-color: #27272a;
+  border-radius: 6px;
+}
+
+.hitsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hitsCount {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 3px 13px;
+  border-radius: 10px;
+  background-color: #10b981;
+}
+
+@media screen and (min-width: 1080px) {
+  .menuIcon {
+    display: none;
+  }
+}

@@ -1,0 +1,434 @@
+.formCardContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fafafa;
+  font-size: 14px;
+  gap: 20px;
+}
+.formContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.systemContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-self: flex-start;
+  padding: 5px;
+  gap: 10px;
+  border: 1px solid #27272a;
+  border-radius: 5px;
+  position: relative;
+  background-color: #27272a;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.privateServers {
+  position: absolute;
+  padding: 3px;
+  border: 1px solid #0dba84;
+  color: #0dba84;
+  border-radius: 4px;
+  font-size: 8px;
+  font-weight: 700;
+  rotate: 15deg;
+  top: -15px;
+  width: max-content;
+  left: 42px;
+  z-index: -1;
+}
+.formOptionsContainer {
+  align-self: flex-end;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  gap: 40px;
+  border: 1px solid #27272a;
+  border-radius: 5px;
+  margin: 10px 0px;
+  background-color: #27272a;
+  position: relative;
+  cursor: pointer;
+}
+
+.chooseFormContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5px;
+  position: absolute;
+  background-color: #121214;
+  top: 30px;
+  left: -3px;
+  z-index: 1;
+  padding: 5px;
+}
+.chooseFormItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  font-size: 12px;
+  border-radius: 5px;
+  width: 90px;
+  cursor: pointer;
+}
+
+.numberInputWidth {
+  width: 94px !important;
+}
+
+.chooseFormItem:hover {
+  background-color: #27272a;
+}
+
+.premiumOptionItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  font-size: 12px;
+  border-radius: 5px;
+  width: 145px;
+  cursor: pointer;
+}
+
+.premiumOptionItem:hover {
+  background-color: #27272a;
+}
+
+.chooseStatusContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5px;
+  position: absolute;
+  background-color: #121214;
+  bottom: -115px;
+  left: -3px;
+  z-index: 1;
+  padding: 5px;
+}
+
+.statusOptionItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  font-size: 12px;
+  border-radius: 5px;
+  width: 145px;
+  cursor: pointer;
+}
+
+.statusOptionItem:hover {
+  background-color: #27272a;
+}
+
+.chooseBadgeContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5px;
+  position: absolute;
+  background-color: #121214;
+  bottom: -65px;
+  left: -3px;
+  z-index: 1;
+  padding: 5px;
+}
+
+.badgeOptionItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  font-size: 12px;
+  border-radius: 5px;
+  width: 90px;
+  cursor: pointer;
+}
+
+.badgeOptionItem:hover {
+  background-color: #27272a;
+}
+.profileFormContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.inputsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.inputItemContainer {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: 5px;
+  flex: 1 1 auto;
+}
+
+.inputItemContainer input {
+  background-color: #27272a;
+  border: none;
+  color: #fafafa;
+  border-radius: 5px;
+  padding: 7px 5px;
+  width: 150px;
+  margin: 7px 0px;
+}
+
+.premiumContainerWidth {
+  width: 150px;
+}
+
+.realGroupURLStyle {
+  width: 320px !important;
+}
+
+.inputItemContainer textarea {
+  background-color: #27272a;
+  border: none;
+  color: #fafafa;
+  border-radius: 5px;
+  padding: 7px 5px;
+  width: min-content;
+  margin: 7px 0px;
+}
+
+.groupFormTextarea {
+  width: 320px;
+}
+
+.saveChangesStyle {
+  width: 100%;
+  background-color: #18181d;
+  margin: 20px auto;
+  text-align: center;
+  padding: 8px 0px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.saveChangesStyle:hover {
+  background-color: #2c2c2c;
+}
+
+.cardContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 24px;
+  border: 1px solid #27272a;
+  border-radius: 10px;
+}
+
+.cardIcons {
+  display: flex;
+  align-items: center;
+  justify-self: flex-start !important;
+  justify-content: flex-start;
+  gap: 8px;
+  width: 100%;
+}
+
+.controllerIcon {
+  width: fit-content;
+  background-color: #0dba84;
+  border-radius: 50%;
+  height: 16px;
+  padding: 4px;
+  text-align: center;
+}
+
+.robloxStyle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 100px auto;
+}
+
+.dateAndCopyContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.copyContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #27272a;
+  border-radius: 5px;
+  gap: 20px;
+  padding: 8px 10px;
+  cursor: pointer;
+}
+
+.dateContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 8px 10px;
+}
+
+.webhookInput {
+  width: 340px !important;
+}
+/* modal */
+
+.systemModalContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #fafafa;
+  margin: 20px auto;
+}
+
+.modalSwitchContainer {
+  display: flex;
+  padding: 6px;
+  width: fit-content;
+  background-color: #27272a;
+  border-radius: 10px;
+  font-size: 12px;
+  color: #a1a1aa;
+}
+
+.modalSwitchItem {
+  padding: 5px 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.modalSwitchActiveItem {
+  color: #fff;
+  background-color: #000;
+  border-radius: 8px;
+}
+
+.modalSettingsFormContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+  margin: 20px auto;
+}
+
+.modalCopyDiv {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background-color: #27272a;
+  border: none;
+  color: #fafafa;
+  border-radius: 5px;
+  padding: 7px 10px;
+  width: 85%;
+  margin: 7px 0px;
+}
+
+.deleteWebsite {
+  justify-self: flex-start;
+  align-self: flex-start;
+  margin-left: 5%;
+  padding: 7px 10px;
+  background-color: rgb(250, 71, 71);
+  border-radius: 5px;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.modalDiscoverDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: #27272a;
+  border: none;
+  color: #fafafa;
+  border-radius: 5px;
+  padding: 10px 15px;
+  width: 50%;
+  margin: 7px 0px;
+}
+
+@media screen and (max-width: 775px) {
+  .formContainer {
+    width: 45%;
+    font-size: 11px;
+  }
+  .inputItemContainer input {
+    width: 100px;
+  }
+  .inputItemContainer textarea {
+    width: 220px;
+  }
+  .premiumOptionItem {
+    width: 95px;
+  }
+  .numberInputWidth {
+    width: 60px !important;
+  }
+  .premiumContainerWidth {
+    width: 100px;
+  }
+  .formOptionsContainer {
+    gap: 10px;
+  }
+  .cardContainer {
+    width: 35%;
+    font-size: 12px;
+  }
+  .dateContainer {
+    padding: 0px;
+  }
+  .robloxStyle {
+    margin: 60px auto;
+  }
+  .realGroupURLStyle {
+    width: 230px !important;
+  }
+  .groupFormTextarea {
+    width: 105px !important;
+  }
+  .webhookInput {
+    width: 230px !important;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .formCardContainer {
+    flex-wrap: wrap;
+  }
+  .formContainer {
+    width: fit-content;
+  }
+  .modalCopyDiv {
+    width: 95%;
+  }
+  .cardContainer {
+    width: fit-content;
+  }
+  .modalSettingsFormContainer {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,56 @@
+.leaderboardMainContainer {
+  width: 36%;
+  padding: 24px;
+  border: 1px solid #27272a;
+  border-radius: 10px;
+  position: relative;
+}
+
+.leaderboardOptionsContainer {
+  position: absolute;
+  top: -18px;
+  right: -1px;
+  display: flex;
+  padding: 6px;
+  width: fit-content;
+  background-color: #27272a;
+  border-radius: 10px;
+  font-size: 14px;
+  color: #a1a1aa;
+}
+
+.leaderboardOption {
+  padding: 5px 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.leaderboardActiveOption {
+  color: #fff;
+  background-color: #000;
+  border-radius: 8px;
+}
+
+.leaderboardItemsContainer {
+  margin-top: 20px;
+  max-height: 350px;
+  overflow: scroll;
+  padding-right: 15px;
+  padding-bottom: 0px;
+}
+
+.leaderboardRecentHits {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  padding-right: 15px;
+  padding-bottom: 0px;
+}
+
+@media screen and (max-width: 968px) {
+  .leaderboardMainContainer {
+    width: 100%;
+    margin-top: 20px;
+  }
+}

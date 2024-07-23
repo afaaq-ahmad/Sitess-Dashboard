@@ -1,0 +1,23 @@
+.liveHitsContainer {
+  max-width: 50%;
+  height: auto;
+  /* border: 1px solid #27272a; */
+  margin: 20px;
+  text-align: center;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+  overflow-x: scroll;
+}
+
+.liveHitsTableContainer {
+  margin-top: 10px;
+  overflow-x: scroll;
+}
+
+@media screen and (max-width: 968px) {
+  .liveHitsContainer {
+    max-width: 90%;
+    margin: 20px 0px;
+  }
+}
